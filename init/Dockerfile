@@ -1,4 +1,4 @@
-FROM akiranet24/terraform-sacloud-hoge
+FROM akiranet24/terraform-sacloud:latest
 
 LABEL "com.github.actions.name"="terraform init"
 LABEL "com.github.actions.description"="Run terraform init"
