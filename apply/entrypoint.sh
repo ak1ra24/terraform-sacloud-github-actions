@@ -32,8 +32,8 @@ echo "$TF_SACLOUD_PROVIDER_VERSION download..."
 wget https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v${TF_SACLOUD_PROVIDER_VERSION}/terraform-provider-sakuracloud_${TF_SACLOUD_PROVIDER_VERSION}_linux-amd64.zip
 unzip terraform-provider-sakuracloud_${TF_SACLOUD_PROVIDER_VERSION}_linux-amd64.zip
 rm terraform-provider-sakuracloud_${TF_SACLOUD_PROVIDER_VERSION}_linux-amd64.zip
-rm -rf terraform-provider-sakuracloud
-mv terraform-provider-sakuracloud* terraform-provider-sakuracloud
+rm -rf /terraform-provider-sakuracloud
+mv terraform-provider-sakuracloud* /terraform-provider-sakuracloud
 
 cd "${TF_ACTION_WORKING_DIR:-.}"
 
